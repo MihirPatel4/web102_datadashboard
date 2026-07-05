@@ -1,0 +1,14 @@
+.brewery-entry td {
+    width: 1000px;
+    border: 1px solid #9ca3af;
+    padding: 20px;
+}
+
+.brewery-entry {
+    height: 50px;
+}
+
+.brewery-table {
+    border-collapse: collapse;
+    font-size: 12px;
+}
