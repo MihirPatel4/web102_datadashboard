@@ -44,3 +44,14 @@
     margin-left: 20px;
     font-size: 14px;
 }
+
+.details-table {
+    width: 1000px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.details-table th, td {
+  border: 1px solid #9ca3af;
+  padding: 10px;
+}
