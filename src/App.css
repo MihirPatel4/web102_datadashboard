@@ -55,3 +55,29 @@
   border: 1px solid #9ca3af;
   padding: 10px;
 }
+
+.dash-button {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 250px;
+  /*z-index: 1000;*/
+  background: #2e303a;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0;
+}
+
+.dashboard {
+    margin-left: 300px;
+}

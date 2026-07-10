@@ -57,10 +57,8 @@ const App = () => {
 
   // add 2 charts to the dashboard
   //    brewery type, compare brewery count between any 2 cities (user input)
-  // make a header component that stays on all pages
   return (
-    <div>
-      <h2 id="title">Brewery Finder</h2>
+    <div className="dashboard">
       <div className="filters">
         <div className="search">
           <span>Search City:</span>
