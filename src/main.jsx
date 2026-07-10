@@ -6,11 +6,12 @@ import './index.css';
 
 import App from './App.jsx';
 import DetailView from './routes/DetailView';
+import Nav from './routes/Nav'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/">
+      <Route path="/" element={<Nav />}>
         <Route index element={<App />} />
         <Route path="breweryDetails/:symbol" element={<DetailView />}/>
       </Route>
