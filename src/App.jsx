@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router';
 import './App.css';
 
 const App = () => {
@@ -54,6 +55,9 @@ const App = () => {
     }
   };
 
+  // add 2 charts to the dashboard
+  //    brewery type, compare brewery count between any 2 cities (user input)
+  // make a header component that stays on all pages
   return (
     <div>
       <h2 id="title">Brewery Finder</h2>
@@ -94,7 +98,7 @@ const App = () => {
         <tbody className="search-results">
           {filteredList.map(brewery => (
             <tr key={brewery.id} className="brewery-entry">
-              <td><a href={brewery.website_url}>{brewery.name}</a></td>
+              <td><Link to={`/breweryDetails/${brewery.id}`}>{brewery.name}</Link></td>
               <td>{brewery.address_1}</td>
               <td>{brewery.city}</td>
               <td>{brewery.state_province}</td>
