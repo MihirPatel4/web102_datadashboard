@@ -2,7 +2,7 @@
 
 Submitted by: Mihir Patel
 
-This web app allows a user to look through a list of breweries provided by Open Brewery DB. The user can search by city and filter by the type of brewery. Each entry in the list leads to a page containing more details.
+This web app allows a user to look through a list of breweries provided by Open Brewery DB. The user can search by city and filter by the type of brewery. Each entry in the list contains a link to a page containing more details.
 
 Time spent: **WIP**
 
@@ -28,19 +28,17 @@ The following **optional** features are implemented:
 - [ ] The site allows users to toggle between different data visualizations
   - User should be able to use some mechanism to toggle between displaying and hiding visualizations
 
-<!--
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of the web app:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/5MP9oQe.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
--->
+I could not think of another chart to display that would show unique information using the data provided.
 
 ## License
 
