@@ -45,6 +45,10 @@
     font-size: 14px;
 }
 
+.details-container {
+    margin-left: 300px;
+}
+
 .details-table {
     width: 1000px;
     text-align: left;
@@ -65,7 +69,6 @@ nav {
   position: fixed;
   top: 0;
   width: 250px;
-  /*z-index: 1000;*/
   background: #2e303a;
   padding: 12px;
   display: flex;
@@ -80,4 +83,22 @@ nav {
 
 .dashboard {
     margin-left: 300px;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin: 20px;
+}
+
+.type-chart {
+    background: #2e303a;
+    padding: 16px;
+    width: 50%;
+}
+
+.type-chart h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
 }
