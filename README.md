@@ -4,7 +4,7 @@ Submitted by: Mihir Patel
 
 This web app allows a user to look through a list of breweries provided by Open Brewery DB. The user can search by city and filter by the type of brewery. Each entry in the list contains a link to a page containing more details.
 
-Time spent: **WIP**
+Time spent: **6 hours**
 
 ## Required Features
 
